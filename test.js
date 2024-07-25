@@ -17,6 +17,7 @@ function mvStartCode() {
                 console.log(variant)
                 break
             }
+            
         }
         falsButton.href = `#order:${productName.textContent} __ ${variant}(предзаказ)=${price.dataset.productPriceDefStr}:::image=${fotoProductMobile.dataset.original || fotoProduct.src }`
     }
